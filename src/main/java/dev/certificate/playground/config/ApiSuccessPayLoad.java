@@ -14,6 +14,7 @@ public class ApiSuccessPayLoad {
     private boolean exception;
 
     public ApiSuccessPayLoad(Object body) {
+        this.message="Success";
         this.body = body;
         this.timestamp= new Date();
         this.exception=false;

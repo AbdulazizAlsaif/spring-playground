@@ -1,4 +1,16 @@
 spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  main:
+    log-startup-info: false
   jpa:
     hibernate:
       ddl-auto: update
+    open-in-view: false
+  banner:
+    location: Banner.txt
+server:
+  error:
+    whitelabel:
+      enabled: false
